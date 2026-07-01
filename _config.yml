@@ -27,3 +27,26 @@ highlighter: rouge
 # Minimal Mistakes 外观设置
 # =====================
 minimal_mistakes_skin: "default"   # 可改：air / dark / mint / neon / contrast 等
+
+paginate: 5
+paginate_path: /page:num
+
+
+author:
+  name: "songxingchen"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "华为裸辞，开启新的生活"
+  location: "Seoul"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/starfading"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true
+
+show_excerpts: true
+
