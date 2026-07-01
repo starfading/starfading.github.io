@@ -1,3 +1,30 @@
-title: luckystar
-description: null
-theme: jekyll-theme-dinky
+title: luckystar space
+name: songxingchen
+description: 坚持长期主义
+url: "https://starfading.github.io"
+
+# =====================
+# THEME（核心）
+# =====================
+remote_theme: mmistakes/minimal-mistakes@4.28.0
+
+# =====================
+# PLUGINS（必须）
+# =====================
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# =====================
+# 博客基础设置
+# =====================
+markdown: kramdown
+highlighter: rouge
+
+# =====================
+# Minimal Mistakes 外观设置
+# =====================
+minimal_mistakes_skin: "default"   # 可改：air / dark / mint / neon / contrast 等
