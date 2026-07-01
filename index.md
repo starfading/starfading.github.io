@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 首页
+title: songxingchen
 ---
 
-欢迎来到我的博客 🚀
+身体自由，财务自由，精神自由
