@@ -1,6 +1,4 @@
 ---
 layout: home
-title: songxingchen
+title: 坚持长期主义
 ---
-
-身体自由，财务自由，精神自由
