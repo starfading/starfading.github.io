@@ -1,4 +1,4 @@
-title: luckystar
+title: luckystar space
 description: null
 url: "https://starfading.github.io"
 
@@ -35,8 +35,8 @@ paginate_path: /page:num
 author:
   name: "songxingchen"
   avatar: "/assets/images/avatar.jpg"
-  bio: "华为裸辞，开启新的生活"
-  location: "Seoul"
+  bio: "华为裸辞ing"
+  location: "Shanghai"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
