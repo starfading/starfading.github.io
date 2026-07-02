@@ -51,3 +51,6 @@ defaults:
 show_excerpts: true
 show_header_image: true
 
+sass:
+  style: compressed
+
