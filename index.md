@@ -1,4 +1,7 @@
 ---
 layout: home
-title: "坚持长期主义"
+title: "be smart, be brave"
+permalink: /
+header:
+  image: "/assets/images/home-header.jpg"
 ---
