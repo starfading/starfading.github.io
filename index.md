@@ -1,4 +1,4 @@
 ---
 layout: home
-title: "life will goes on, just do it"
+title: "enjoy the precious life"
 ---
