@@ -1,0 +1,9 @@
+.author__avatar {
+  float: none;       /* 去掉默认的左浮动 */
+  display: block;
+  margin: 0 auto;    /* 居中头像 */
+}
+
+.author__content {
+  text-align: center; /* 让名字和简介居中 */
+}
