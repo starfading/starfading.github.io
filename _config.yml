@@ -26,7 +26,7 @@ highlighter: rouge
 # =====================
 # Minimal Mistakes 外观设置
 # =====================
-minimal_mistakes_skin: "neon"   # 可改：air / dark / mint / neon / contrast 等
+minimal_mistakes_skin: "air"   # 可改：air / dark / mint / neon / contrast 等
 
 paginate: 5
 paginate_path: /page:num
@@ -46,7 +46,7 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: single
+      author_profile: true
 
 show_excerpts: true
 show_header_image: true
