@@ -1,4 +1,4 @@
 ---
 layout: home
-title: "be smart, be brave"
+title: "life will goes on, just do it"
 ---
