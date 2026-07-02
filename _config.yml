@@ -1,53 +1,61 @@
+# The language of the webpage
+lang: zh-CN
+
+# Change to your timezone
+timezone: Asia/Shanghai
+
 title: luckystar space
-description: null
+
 url: "https://starfading.github.io"
+baseurl: ""
 
-# =====================
-# THEME（核心）
-# =====================
-remote_theme: mmistakes/minimal-mistakes@4.28.0
+github:
+  luckystar: songxingchen
 
-# =====================
-# PLUGINS（必须）
-# =====================
+social:
+  name: songxingchen
+  email: starfading7@gmail.com
+  links:
+    - https://github.com/starfading
+
+theme_mode: light
+# light / dark / dual
+
+avatar: /assets/images/avatar.jpg
+
+toc: true
+
+comments:
+  provider:
+  # provider: giscus
+
+paginate: 10
+
 plugins:
-  - jekyll-include-cache
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
+  - jekyll-archives
 
-# =====================
-# 博客基础设置
-# =====================
-markdown: kramdown
-highlighter: rouge
-
-# =====================
-# Minimal Mistakes 外观设置
-# =====================
-minimal_mistakes_skin: "air"   # 可改：air / dark / mint / neon / contrast 等
-
-paginate: 5
-paginate_path: /page:num
-
-
-author:
-  name: "songxingchen"
-  avatar: "/assets/images/avatar.jpg"
-  bio: "华为裸辞ing"
-  location: "Shanghai"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/starfading"
+kramdown:
+  syntax_highlighter: rouge
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
+      type: posts
     values:
-      author_profile: true
+      layout: post
+      comments: true
+      toc: true
 
-show_excerpts: true
-show_header_image: true
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+sass:
+  style: compressed
 
