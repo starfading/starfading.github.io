@@ -1,4 +1,4 @@
 ---
 layout: home
-title: "enjoy life"
+title: "月下举杯敬沧海"
 ---
