@@ -47,9 +47,6 @@ defaults:
       path: ""
     values:
       layout: single
-      author_profile: true
-      sidebar:
-        position: right
 
 show_excerpts: true
 show_header_image: true
