@@ -1,2 +1,2 @@
 # starfading.github.io
-my blog
+my life blog
